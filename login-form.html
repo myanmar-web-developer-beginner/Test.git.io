@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+   <h1 class="title">Tun Thit Sa</h1>
+   <style>
+        *{
+            font-family: 'Roboto', sans-serif;
+            color: #364f6b;
+            box-sizing: border-box;
+        }
+        .title{
+            color: #364f6b;
+            text-align: center;
+        }
+        body{
+            background-image: linear-gradient(to right, rgb(18, 194, 233), rgb(196, 113, 237), rgb(246, 79, 89));
+        }
+        .login-form{
+            width: 350px;
+            border: 2px solid #f3f169;
+            padding: 30px 20px;
+            border-radius: 10px;
+            margin: 200px auto;
+            box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.226);
+        }
+        .login-form legend{
+            font-size: 2em;
+            text-transform: uppercase;
+            text-align: center;
+
+        }
+        .form-input{
+            margin-bottom: 20px
+        }
+        .form-input label{
+            display: block;
+            margin-bottom: 10px;
+        }
+         .form-input input{
+            display: block;
+            width: 100%;
+            border-radius: 10px;
+            padding: 10px 15px;
+            border: 2px solid #f3f169;
+            background: white;
+         }
+         .btn{
+            border-radius: 15px;
+            padding: 10px 15px;
+            border: 2px solid wheat;
+            background-color: #f0f0f0;
+            color: gray;
+            margin-left: 30%;
+            width: 125px;
+            text-decoration: solid;
+         }                    
+         .reg-link{
+            margin-left: 35%;
+         }
+         .reg-skip{
+            margin-left: 20%;
+         }
+
+         .text-light{
+            color: #364f6b;
+
+         }
+         
+         
+         
+
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset class="login-form">
+            <legend class="text-light">
+                <i class="fas fa-unlock-alt text-light"></i>
+           Login
+            </legend>
+        <div class="form-input">
+            <label class="text-light">
+                <i class="fas fa-user text-light fa-fw"></i>Username
+            </label>
+            <input type="text" name="">
+        </div>
+        <div class="form-input">
+            <label class="text-light">
+                <i class="fas fa-key text-light fa-fw"></i>Password
+            </label>
+            <input type="password" name="Password">
+        </div>
+        <button class="btn" >
+            <i class="fas fa-lock-open text-light fa-fw"></i>LogIn
+        </button>
+        <br>
+        <br>
+        <a href="sing-up.html" class="reg-link">Register Now</a>
+        <br>
+        <br>
+        <br>
+        <a href="home.html" class="reg-skip" >Skip For Account Creat</a>
+        
+    </form>
+
+</body>
+
+</html>
